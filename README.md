@@ -1,5 +1,5 @@
 # TA.Ping
-Ping script to check website or webservice availability and send email alert
+TA.Ping is a ping script to check website or webservice and send email alert
 
 # Why This
 No-frills way to host your own website or webservice monitoring (it goes without saying if your entire server is down including mail and network services this will not work; but you can buddy up and monitor each other's websites)

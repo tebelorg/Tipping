@@ -5,7 +5,7 @@
 // set what site to check and what string to check for
 $URL = $argv[1]; $CHECK = $argv[2];
 
-// alternative usage by calling directly from web url
+// alternative usage to call directly from web url instead
 // $URL = $_GET['URL']; $CHECK = $_GET['CHECK'];
 
 // call helper to fetch website in html and without cache

@@ -2,7 +2,7 @@
 TA.Ping is a ping script to check website or webservice and send email alert
 
 # Why This
-No-frills way to host your own website or webservice monitoring (it goes without saying if your entire server is down including mail and network services this will not work; but you can buddy up and monitor each other's websites)
+No-frills way to host your own website or webservice monitoring (it goes without saying if your entire server is down including mail and network this will not work; but you can buddy up with a friend and monitor each other's websites)
 
 # Set Up
 - Update taping.php with your email alert settings and server path
@@ -15,7 +15,7 @@ Run the job on its own or from a scheduler, for example the crontab entry below 
 ```
 Support triggering from URL through a web browser or webservice API (first enable that option in taping.php)
 ```
-your_website_url/taping.php?URL=http://tebel.org&CHECK=Open-source
+your_website_url/taping.php?URL=http://tebel.org&CHECK="Open-source"
 ```
 
 # Pipeline

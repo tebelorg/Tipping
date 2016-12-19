@@ -2,7 +2,7 @@
 Ping script to check website or webservice availability and send email alert
 
 # Why This
-No-frills way to host your own website or webservice monitoring (it goes without saying that if your entire server is down including mail and network services this will not work; but you can buddy up and monitor each other's websites)
+No-frills way to host your own website or webservice monitoring (it goes without saying if your entire server is down including mail and network services this will not work; but you can buddy up and monitor each other's websites)
 
 # Set Up
 - Update taping.php with your email alert settings and server path
@@ -13,7 +13,7 @@ Run the job on its own or from a scheduler, for example the crontab entry below 
 ```
 0,15,30,45 * * * * /usr/local/bin/php /full_path_on_your_server/taping.php http://tebel.org "Open-source" >> /full_path_on_your_server/taping.log
 ```
-Support triggering from URL through a web browser or webservice API (first enable in taping.php)
+Support triggering from URL through a web browser or webservice API (first enable that option in taping.php)
 ```
 your_website_url/taping.php?URL=http://tebel.org&CHECK=Open-source
 ```

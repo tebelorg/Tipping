@@ -2,7 +2,7 @@
 TA.Ping is a ping script to check website or webservice and send email alert
 
 # Why This
-No-frills way to host your own website or webservice monitoring (it goes without saying if your entire server is down including mail and network this will not work; but you can buddy up with a friend and monitor each other's websites)
+No-frills way to host your own website or webservice monitoring (it goes without saying if your entire server is down including mail and network this will not work; but you can buddy with a friend and monitor each other's websites)
 
 # Set Up
 - Update pinger.php with your email alert settings and server path

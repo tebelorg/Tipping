@@ -13,11 +13,11 @@ No-frills way to host your own website or webservice monitoring (it goes without
 # To Use
 Run the job on its own or from a scheduler, for example the crontab entry below checks every 15 minutes
 ```
-0,15,30,45 * * * * /usr/local/bin/php /full_path_on_your_server/pinger.php http://tebel.sg "Open-source" >> /full_path_on_your_server/pinger.log
+0,15,30,45 * * * * /usr/local/bin/php /full_path_on_your_server/pinger.php http://tebel.org "open-source software" >> /full_path_on_your_server/pinger.log
 ```
 Support triggering from URL through a web browser or webservice API (first enable that option in pinger.php)
 ```
-your_website_url/pinger.php?URL=http://tebel.sg&CHECK="Open-source"
+your_website_url/pinger.php?URL=http://tebel.org&CHECK="open-source software"
 ```
 
 # Pipeline

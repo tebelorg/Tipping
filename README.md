@@ -17,7 +17,7 @@ Run the job on its own or from a scheduler, for example the crontab entry below 
 ```
 Support triggering from URL through a web browser or webservice API (first enable that option in pinger.php)
 ```
-your_website_url/pinger.php?URL=http://tebel.org&CHECK="open-source software"
+your_website_url/pinger.php?URL=http://tebel.org&CHECK=open-source software
 ```
 
 # Pipeline

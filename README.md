@@ -1,5 +1,5 @@
 # TA.Ping
-TA.Ping is a ping script to check website or webservice and send email alert - http://tebel.org
+TA.Ping is a ping script to check website or webservice and send email alert ~ http://tebel.org
 
 ![Sample Ping](https://github.com/tebelorg/TA.Ping/raw/master/sample.jpg)
 

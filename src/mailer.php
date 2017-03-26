@@ -25,7 +25,7 @@ else
 
 // set default email subject if email subject not provided
 if ($_GET['SUBJECT']=="")
-	$subject = "Email Service";
+	$subject = "Your Subject";
 else
 	$subject = $_GET['SUBJECT'];
 
@@ -44,13 +44,11 @@ $message = "
 <body>
 " . $name . "
 <p>" . $custom_message . "<br>" .
-"<p></p>
-<pre><span style=\"font-family: arial, helvetica, sans-serif; font-size: small;\">Kind Regards,<br><span style=\"color: #000000;\"><strong><em>Your Name</em></strong></span></span></pre></p>
+"<span style=\"font-family: arial, helvetica, sans-serif; font-size: small;\">Kind Regards,<br><span style=\"color: #000000;\"><strong><em>Your Name</em></strong></span></span></p>
 </body>
 </html>";
 	}
 
-/*
 // OPTION 1 - FOR SUPPORTING ATTACHMENTS AND WINDOWS - https://github.com/PHPMailer/PHPMailer
 // get from above URL PHPMailerAutoload.php, class.phpmailer.php, class.smtp.php, class.pop3.php
 require_once('/full_path_on_your_server/PHPMailer/PHPMailerAutoload.php'); $mail = new PHPMailer;
@@ -108,8 +106,8 @@ else
 		" mail not sent through to " . trim($to) . " - " . $mail->ErrorInfo . "</center></h1>";
         }
 // OPTION 1 - END OF BLOCK
-*/
 
+/*
 // OPTION 2 - FOR BASIC EMAIL WITHOUT ATTACHMENTS - SENDING USING PHP MAIL
 $headers  = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
@@ -134,5 +132,6 @@ else
 		" mail not sent through to " . trim($to) . "</center></h1>";
 	}
 // OPTION 2 - END OF BLOCK
+*/
 
 ?>

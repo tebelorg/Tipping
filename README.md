@@ -11,6 +11,7 @@ Originally developed pro bono for monitoring a social mission website with over 
 # Set Up
 - Update pinger.php with your email alert settings and server path
 - Update mailer.php with your signature and catch-all email etc
+- If not using PHPMailer, set to option 2 (php mail) in mailer.php
 
 # To Use
 Run the job on its own or from a scheduler, for example the crontab entry below checks every 15 minutes

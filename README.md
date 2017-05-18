@@ -1,7 +1,7 @@
-# TA.Ping
-TA.Ping is a ping script to check website and send email alert ~ http://tebel.org
+# Tipping
+Tipping is a ping script to check website and send email alert ~ http://tebel.org
 
-![Sample Ping](https://github.com/tebelorg/TA.Ping/raw/master/sample.jpg)
+![Sample Ping](https://github.com/tebelorg/Tipping/raw/master/sample.jpg)
 
 # Why This
 No-frills way to host your own website or webservice monitoring (obviously if your entire server is down including mail and network this will not work; but you can buddy up with a friend and monitor each other's websites)
@@ -29,4 +29,4 @@ Feature|Details
 Enhancements|feel free to review and suggest new features
 
 # License
-TA.Ping is open-source software released under the MIT license
+Tipping is open-source software released under the MIT license

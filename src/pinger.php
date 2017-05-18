@@ -1,6 +1,6 @@
 <?php
 
-/* TA.PING SCRIPT TO CHECK WEBSITE OR WEBSERVICE AVAILABILITY ~ TEBEL.ORG */
+/* TIPPING SCRIPT TO CHECK WEBSITE OR WEBSERVICE AVAILABILITY ~ TEBEL.ORG */
 
 // set what site to check and what string to check for
 $URL = $argv[1]; $CHECK = $argv[2];

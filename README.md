@@ -23,10 +23,5 @@ Support triggering from URL through a web browser or webservice API (first enabl
 your_website_url/pinger.php?URL=http://tebel.org&CHECK=open-source software
 ```
 
-# Pipeline
-Feature|Details
-:-----:|:------
-Enhancements|feel free to review and suggest new features
-
 # License
 Tipping is open-source software released under the MIT license

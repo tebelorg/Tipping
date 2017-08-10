@@ -1,5 +1,5 @@
 # Tipping
-Tipping is a ping script to check website and send email alert ~ http://tebel.org
+Tipping is a ping script to check website and send email alert
 
 ![Sample Ping](https://github.com/tebelorg/Tipping/raw/master/sample.jpg)
 
